@@ -1,0 +1,63 @@
+#contact {
+
+    .contact_upper {
+
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+
+        .contact_upper_head {
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .contact_upper_content {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+
+            .buttons {
+
+                min-height: 60px;
+                width: 30%;
+                padding-left: 10px;
+
+                border-radius: 10px;
+            }
+
+
+        }
+
+
+
+    }
+
+    .contact_lower {
+        padding-top: 50px;
+
+        .contact_big_box {
+            display: flex;
+
+            justify-content: center;
+            gap: 30px;
+
+            .contact_box {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 30px;
+                width: calc(20% - 60px);
+                min-height: 200px;
+            }
+        }
+
+    }
+
+
+}

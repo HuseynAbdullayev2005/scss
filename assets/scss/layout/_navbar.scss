@@ -1,0 +1,38 @@
+%middlenavbar {
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navbar {
+
+    .navbar_left{
+        h1{
+            font-weight: normal;
+            font-size: 20px;
+        }
+        h1:hover{
+       cursor: pointer;
+        }
+    }
+    color: white;
+    background-color: #242629;
+    @extend %middlenavbar;
+    min-height: 60px;
+
+    .navbar_right {
+        .navbar_list {
+            li:hover{
+                transition: 200ms;
+                cursor: pointer;
+                color: rgb(187, 185, 185);
+            }
+            display: flex;
+            gap: 20px;
+            color: grey;
+            font-size: 16px;
+        }
+    }
+}

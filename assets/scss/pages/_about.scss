@@ -1,0 +1,38 @@
+#about_text{
+    .about_text{
+        min-height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       margin-top: 100px;
+        gap: 20px;
+
+        .about_text_button{
+            padding: 15px 50px;
+           border-radius: 15px;
+           color: white;
+           background-color: #0d6efd;
+           text-align: center;
+        }
+        .about_text_button:hover{
+         transition: 300ms;
+           background-color: #074fbd;
+          
+        }
+        h1{
+            font-size: 40px;
+            width: 40%;
+            text-align: center;
+
+
+        }
+        p{
+            text-align: center;
+            width: 40%;
+            color: grey;
+            font-size: 20px;
+            line-height: 1.5;
+            
+        }
+    }
+}

@@ -1,0 +1,31 @@
+%middlefooter {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer {
+    
+    padding: 20px;
+    
+    min-height: 100px;
+    background-color: #242629;
+    @extend %middlefooter;
+
+    .footer_left {
+        color: white;
+    }
+
+    .footer_right {
+        
+         .footer_list {
+           a{
+            text-decoration: underline;
+           }
+            @extend %middlefooter;
+            color: white;
+        }
+    }
+}
